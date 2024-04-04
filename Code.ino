@@ -2,8 +2,8 @@
 
 const int bluetoothTx = 2;
 const int bluetoothRx = 3;
-const int relayLight = 6;
-const int relayFan = 8;
+const int relayLight = 8;
+const int relayFan = 9;
 
 SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
 String voice;
